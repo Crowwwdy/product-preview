@@ -80,7 +80,7 @@ span:nth-child(2) {
 }
 
 
-.cart{
+a {
     display: flex;
     padding: 12px;
     color: var(--white);
@@ -88,12 +88,6 @@ span:nth-child(2) {
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-    
-}
-
-.cart a{
-    margin-left: 10px;
-    color: var(--white);
     text-decoration: none;
 
     font-size: 14px;
@@ -101,11 +95,22 @@ span:nth-child(2) {
     
 }
 
+
+a img{
+    margin-right: 12px;
+}
+
+a:hover{
+    transition: 0.2s  ease  all;
+    background-color:  hsl(158, 38%, 19%);
+}
+
 @media screen and (max-width: 800px) {
     .container{
         width: 100%;
         flex-direction: column;
         margin: 20px;
+        height: auto;
     }
     
 }
