@@ -38,6 +38,13 @@ body{
     justify-content: space-between;
 }
 
+.hero-img {
+    flex: 1 0 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   }
+
 p{
     font-size: 14px;
     font-weight: 500;
@@ -110,7 +117,14 @@ a:hover{
         width: 100%;
         flex-direction: column;
         margin: 20px;
-        height: auto;
+        height: auto;   
     }
+
+    .hero-img {
+        width: 100%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+       }
     
 }
