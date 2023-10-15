@@ -86,7 +86,6 @@ span:nth-child(2) {
     align-items: center;
 }
 
-
 a {
     display: flex;
     padding: 12px;
@@ -126,5 +125,4 @@ a:hover{
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0px;
        }
-    
 }
